@@ -1,0 +1,125 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgb(140, 163, 232);
+      scroll-behavior: smooth;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .modal-dialog {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      scroll-behavior: smooth;
+    }
+
+    .modal-content {
+      width: 1200px;
+      background-color: #f2f2f2;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      scroll-behavior: smooth;
+    }
+
+    .modal-title {
+      text-align: center;
+      color: #333;
+      margin-top: 0;
+      scroll-behavior: smooth;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+      scroll-behavior: smooth;
+    }
+
+    .control-label {
+      font-weight: bold;
+      margin-bottom: 5px;
+      scroll-behavior: smooth;
+    }
+
+    .form-control {
+      font-size: 14px;
+    }
+
+    .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background-color: #edac20;
+      color: #fff;
+      border: none;
+    }
+
+    .btn-danger {
+      background-color: #FF1493;
+      color: #fff;
+      border: none;
+    }
+
+    #uuid {
+      text-align: center;
+      margin-top: 20px;
+      scroll-behavior: smooth;
+    }
+
+    #qrCode {
+      text-align: center;
+      margin-top: 20px;
+      scroll-behavior: smooth;
+    }
+
+
+
+    .animation-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; /* Puts the animation behind other content */
+      pointer-events: none; /* Prevents interaction with the animation */
+    }
+
+    .bubble {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 50%;
+      animation: bubbleAnimation 10s infinite;
+      pointer-events: none; /* Prevents interaction with the bubbles */
+    }
+
+    
+    .bubble {
+      position: absolute;
+      background-color: #8ec1f0;
+      border-radius: 50%;
+      animation: bubbleAnimation 5s infinite;
+    }
+    
+  
+    
+    .scroll-container {
+      overflow-y: auto;
+      padding: 20px;
+    }
+
+    
+    html { overflow-y: scroll; }

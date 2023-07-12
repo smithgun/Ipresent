@@ -1,0 +1,79 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 28px;
+  color: #010810;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.choose-file {
+  display: none;
+}
+
+.custom-button {
+  display: inline-block;
+  width: 150px; /* Add a fixed width */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Add right margin for gap */
+  font-size: 16px; /* Add font-size for text size */
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button {
+  display: inline-block;
+  width: 150px; /* Add a fixed width */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px; /* Add left margin for gap */
+  font-size: 16px; /* Add font-size for text size */
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+#qrScanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#qrResult {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#selectedFile {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #faf7f7;
+}
